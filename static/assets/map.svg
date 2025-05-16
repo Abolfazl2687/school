@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5" />
+  
+  <!-- Map Roads -->
+  <path d="M0,300 L800,300" stroke="#e0e0e0" stroke-width="30" />
+  <path d="M400,0 L400,600" stroke="#e0e0e0" stroke-width="20" />
+  <path d="M200,150 L600,150" stroke="#e0e0e0" stroke-width="15" />
+  <path d="M200,450 L600,450" stroke="#e0e0e0" stroke-width="15" />
+  
+  <!-- School Building -->
+  <rect x="350" y="250" width="100" height="100" fill="#1e88e5" rx="5" />
+  <rect x="370" y="230" width="60" height="20" fill="#1e88e5" />
+  <rect x="390" y="210" width="20" height="20" fill="#1e88e5" />
+  
+  <!-- School Yard -->
+  <rect x="320" y="350" width="160" height="80" fill="#90caf9" rx="5" />
+  
+  <!-- Trees -->
+  <circle cx="300" cy="270" r="15" fill="#4caf50" />
+  <circle cx="300" cy="240" r="15" fill="#4caf50" />
+  <circle cx="300" cy="210" r="15" fill="#4caf50" />
+  
+  <circle cx="500" cy="270" r="15" fill="#4caf50" />
+  <circle cx="500" cy="240" r="15" fill="#4caf50" />
+  <circle cx="500" cy="210" r="15" fill="#4caf50" />
+  
+  <!-- Small Buildings Around -->
+  <rect x="200" y="200" width="60" height="40" fill="#ffb74d" rx="2" />
+  <rect x="200" y="360" width="70" height="50" fill="#ffb74d" rx="2" />
+  <rect x="540" y="200" width="60" height="40" fill="#ffb74d" rx="2" />
+  <rect x="530" y="360" width="70" height="50" fill="#ffb74d" rx="2" />
+  
+  <!-- Compass -->
+  <circle cx="700" cy="100" r="30" fill="white" stroke="#1e88e5" stroke-width="2" />
+  <line x1="700" y1="70" x2="700" y2="130" stroke="#1e88e5" stroke-width="2" />
+  <line x1="670" y1="100" x2="730" y2="100" stroke="#1e88e5" stroke-width="2" />
+  <text x="700" y="85" font-family="Arial" font-size="12" text-anchor="middle" fill="#1e88e5">N</text>
+  <text x="700" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#1e88e5">S</text>
+  <text x="685" y="100" font-family="Arial" font-size="12" text-anchor="middle" fill="#1e88e5">W</text>
+  <text x="715" y="100" font-family="Arial" font-size="12" text-anchor="middle" fill="#1e88e5">E</text>
+  
+  <!-- Location Pin -->
+  <path d="M400,300 L410,285 L390,285 Z" fill="#f44336" />
+  <circle cx="400" cy="275" r="15" fill="#f44336" />
+  <circle cx="400" cy="275" r="7" fill="white" />
+  
+  <!-- School Name -->
+  <rect x="300" y="500" width="200" height="50" fill="white" rx="5" />
+  <text x="400" y="530" font-family="Arial" font-size="16" text-anchor="middle" fill="#1e88e5">هنرستان شهید امراللهی</text>
+  
+  <!-- Scale -->
+  <line x1="100" y1="550" x2="200" y2="550" stroke="#212121" stroke-width="2" />
+  <line x1="100" y1="545" x2="100" y2="555" stroke="#212121" stroke-width="2" />
+  <line x1="200" y1="545" x2="200" y2="555" stroke="#212121" stroke-width="2" />
+  <text x="150" y="540" font-family="Arial" font-size="12" text-anchor="middle" fill="#212121">100 m</text>
+</svg>
